@@ -1,0 +1,38 @@
+# Bağımlılık klasörleri
+node_modules/
+
+# Build çıktıları
+dist/
+build/
+
+# Log dosyaları
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Geçici dosyalar
+*.tmp
+*.cache
+
+# Çevre dosyaları (API anahtarları, hassas bilgiler)
+.env
+
+# VS Code çalışma dosyaları
+.vscode/
+
+# Tarayıcıların oluşturduğu dosyalar
+.DS_Store
+Thumbs.db
+
+# Test coverage raporları
+coverage/
+
+# Paket kilit dosyaları (isteğe bağlı, örn. npm/yarn ile ilgili)
+package-lock.json
+yarn.lock
+
+# Geliştirme araçları tarafından oluşturulan dosyalar
+*.bak
+*.swp
+*.swo
